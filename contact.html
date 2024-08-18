@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+  background-image:linear-gradient(rgba(9,5,54,0.3),rgba(5,4,46,0.7)),url("a.jpg");
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+.active {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+}
+
+address {
+    font-style: normal;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+</style>
+    head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-section">
+            <h1>Get in Touch</h1>
+            <p>We'd love to hear from you! Whether you have a question, suggestion, or just want to say hello, please don't hesitate to reach out.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea><br><br>
+                <input type="submit" value="Send Message">
+            </form>
+            <address>
+                <p>E-Learning Website</p>
+                <p>123 main,indore</p>
+                <p>Phone: 9588-4532-65</p>
+                <p>Email: [codecrafter@gmail.com]</p>
+            </address>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 E-Learning Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
